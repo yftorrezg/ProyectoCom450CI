@@ -1,0 +1,22 @@
+CRITICAL - 2023-05-03 09:37:44 --> Undefined array key "ganancia"
+in APPPATH\Views\libros\listar.php on line 33.
+ 1 APPPATH\Views\libros\listar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ganancia"', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\libros\\listar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 09:38:59 --> Undefined array key "ganancia"
+in APPPATH\Views\libros\listar.php on line 33.
+ 1 APPPATH\Views\libros\listar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ganancia"', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\libros\\listar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
