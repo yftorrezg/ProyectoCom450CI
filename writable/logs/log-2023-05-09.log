@@ -1,0 +1,110 @@
+CRITICAL - 2023-05-09 04:42:31 --> Undefined variable $datos
+in APPPATH\Controllers\Venders.php on line 14.
+ 1 APPPATH\Controllers\Venders.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Controllers\\Venders.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 04:43:09 --> Undefined variable $cabecera
+in APPPATH\Views\vender\vender.php on line 1.
+ 1 APPPATH\Views\vender\vender.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 04:44:57 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\vender\vender.php on line 5.
+ 1 APPPATH\Views\vender\vender.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 04:50:37 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\vender\vender.php on line 9.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 3 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:01:14 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\vender\vender.php on line 5.
+ 1 APPPATH\Views\vender\vender.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:11:12 --> Undefined variable $carrito
+in APPPATH\Views\vender\vender.php on line 25.
+ 1 APPPATH\Views\vender\vender.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrito', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:14:38 --> Undefined variable $carrito
+in APPPATH\Views\vender\vender.php on line 25.
+ 1 APPPATH\Views\vender\vender.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carrito', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:15:04 --> Undefined variable $indice
+in APPPATH\Views\vender\vender.php on line 35.
+ 1 APPPATH\Views\vender\vender.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $indice', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:15:13 --> Undefined variable $granTotal
+in APPPATH\Views\vender\vender.php on line 40.
+ 1 APPPATH\Views\vender\vender.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $granTotal', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 07:15:35 --> Undefined variable $granTotal
+in APPPATH\Views\vender\vender.php on line 41.
+ 1 APPPATH\Views\vender\vender.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $granTotal', 'C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CrudBilioteca\\app\\Views\\vender\\vender.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('vender/vender', [], true)
+ 5 APPPATH\Controllers\Venders.php(14): view('vender/vender', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Venders->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:43:05 --> Class "App\Controllers\Vender" not found
+in APPPATH\Controllers\Ventas.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

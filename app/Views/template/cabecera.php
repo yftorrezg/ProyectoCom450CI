@@ -20,10 +20,10 @@
 					<a class="nav-link" href="<?= base_url('listar') ?>">Productos</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="<?= base_url('#') ?>">Vender</a>
+					<a class="nav-link" href="<?= base_url('vender') ?>">Vender</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="<?= base_url('#') ?>">Ventas</a>
+					<a class="nav-link" href="<?= base_url('todas') ?>">Ventas</a>
 				</li>
 			</ul>
 		</div>

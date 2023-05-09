@@ -1,0 +1,97 @@
+ERROR - 2023-05-07 03:11:26 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'bibliotecaci' in C:\xampp\htdocs\ProyectoCom450CI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoCom450CI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bibliotecaci', 3306, '', 0)
+#1 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProyectoCom450CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProyectoCom450CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ProyectoCom450CI\app\Controllers\Libros.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(934): App\Controllers\Libros->index()
+#8 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#9 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoCom450CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'bibliotecaci' in C:\xampp\htdocs\ProyectoCom450CI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoCom450CI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ProyectoCom450CI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ProyectoCom450CI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ProyectoCom450CI\app\Controllers\Libros.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(934): App\Controllers\Libros->index()
+#7 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#8 C:\xampp\htdocs\ProyectoCom450CI\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProyectoCom450CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-07 03:11:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bibliotecaci'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `libros`
+ORDER BY `id` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Libros.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 03:19:18 --> Undefined array key "codigo"
+in APPPATH\Views\libros\listar.php on line 29.
+ 1 APPPATH\Views\libros\listar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 03:20:12 --> Undefined array key "precio_compra"
+in APPPATH\Views\libros\listar.php on line 31.
+ 1 APPPATH\Views\libros\listar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio_compra"', 'C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 07:15:23 --> Undefined array key "precio_compra"
+in APPPATH\Views\libros\listar.php on line 31.
+ 1 APPPATH\Views\libros\listar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio_compra"', 'C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 07:17:26 --> Undefined array key "precio_compra"
+in APPPATH\Views\libros\listar.php on line 31.
+ 1 APPPATH\Views\libros\listar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "precio_compra"', 'C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-07 07:17:32 --> Undefined array key "codigo"
+in APPPATH\Views\libros\listar.php on line 29.
+ 1 APPPATH\Views\libros\listar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ProyectoCom450CI\\app\\Views\\libros\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 5 APPPATH\Controllers\Libros.php(18): view('libros/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

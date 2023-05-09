@@ -29,3 +29,19 @@ $routes->post('guardar', 'Libros::guardar');
 $routes->get('borrar/(:num)', 'Libros::borrar/$1');
 $routes->get('editar/(:num)', 'Libros::editar/$1');
 $routes->post('actualizar', 'Libros::actualizar');
+
+//$routes->get('/', 'Venders::index');
+$routes->get('vender', 'Venders::index');
+$routes->get('todas', 'Ventas::index');
+/*$routes->get('vender/quitar/(:num)', 'App\Controllers\Vender::quitarDelCarrito/$1');
+$routes->get('vender/cancelar', 'App\Controllers\Vender::cancelarVenta');
+$routes->post('vender/terminar', 'App\Controllers\Vender::terminarVenta');
+$routes->post('vender/agregar', 'App\Controllers\Vender::agregar');*/
+
+/*
+$routes->get('listar', 'Libros::index');
+$routes->get('crear', 'Libros::crear');
+$routes->post('guardar', 'Libros::guardar');
+$routes->get('borrar/(:num)', 'Libros::borrar/$1');
+$routes->get('editar/(:num)', 'Libros::editar/$1');
+$routes->post('actualizar', 'Libros::actualizar');*/

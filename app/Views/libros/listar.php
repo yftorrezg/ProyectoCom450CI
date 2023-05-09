@@ -1,5 +1,7 @@
 <?= $cabecera ?>
-
+<br>
+<h1>PRODUCTOS</h1>
+<br>
 <a class="btn btn-success" href="<?= base_url('crear') ?>">Crear nuevo</a>
 <br><br>
 
